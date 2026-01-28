@@ -1,0 +1,252 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# VS Code
+# .vscode/  # Tracked for consistent development environment
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Project specific
+scratch/
+temp/
+*.tmp
+*.bak
+.backup/
+
+# Data files
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.txt
+data_sketch/
+
+# Large files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Logs
+logs/
+*.log
+
+# Ruff
+.ruff_cache/
+uv.lock
+.claude
+
+videos/
+docs/
+
+notebooks_pipe/
+# Archive folders
+**/.archive/
+# Course planning materials
+notebooks/CH00/
+
+# Notebook filtering - only allow Start.ipynb, End.ipynb, and README.md
+# Ignore all files in notebooks/
+notebooks/**
+# Un-ignore only specific files
+!notebooks/**/Start.ipynb
+!notebooks/**/End.ipynb
+!notebooks/**/README.md
+lil_formatted_videos/
+
+# Video mapping files (auto-generated)
+discovered_structure.json
+video_mapping.json
+toc.xlsx
+
+!data/EIA/fuel_type_data_california.parquet
+!data/YFINANCE/magnificent7_2000-today.parquet
+!data/EIA/fuel_type_data_pjm.parquet
+
+notebooks/CH06_Simple/End.py
+notebooks/CH08_Categorical/Script.ipynb
+
+sketch/
+/.quarto/
+**/*.quarto_ipynb
+
+.claude
+CLAUDE.md
+all-article-images/
+notebooks/render_all.sh
+notebooks/render_all_articles.py
+_extensions/
+nvim-molten-source.lua
+.envrc

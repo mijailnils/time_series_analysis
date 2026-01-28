@@ -1,0 +1,303 @@
+respondent:
+- id: CISO
+  name: California Independent System Operator
+  description: null
+- id: CAR
+  name: Carolinas
+  description: null
+- id: TEPC
+  name: Tucson Electric Power
+  description: null
+- id: MIDA
+  name: Mid-Atlantic
+  description: null
+- id: SCEG
+  name: Dominion Energy South Carolina, Inc.
+  description: null
+- id: NY
+  name: New York
+  description: null
+- id: NYIS
+  name: New York Independent System Operator
+  description: null
+- id: NWMT
+  name: NorthWestern Corporation
+  description: null
+- id: PSEI
+  name: Puget Sound Energy, Inc.
+  description: null
+- id: FMPP
+  name: Florida Municipal Power Pool
+  description: null
+- id: CAL
+  name: California
+  description: null
+- id: GVL
+  name: Gainesville Regional Utilities
+  description: null
+- id: LDWP
+  name: Los Angeles Department of Water and Power
+  description: null
+- id: DUK
+  name: Duke Energy Carolinas
+  description: null
+- id: NEVP
+  name: Nevada Power Company
+  description: null
+- id: SC
+  name: South Carolina Public Service Authority
+  description: null
+- id: WAUW
+  name: Western Area Power Administration - Upper Great Plains West
+  description: null
+- id: GCPD
+  name: Public Utility District No. 2 of Grant County, Washington
+  description: null
+- id: TVA
+  name: Tennessee Valley Authority
+  description: null
+- id: JEA
+  name: JEA
+  description: null
+- id: PSCO
+  name: Public Service Company of Colorado
+  description: null
+- id: IID
+  name: Imperial Irrigation District
+  description: null
+- id: PACE
+  name: PacifiCorp East
+  description: null
+- id: PNM
+  name: Public Service Company of New Mexico
+  description: null
+- id: SW
+  name: Southwest
+  description: null
+- id: US48
+  name: United States Lower 48
+  description: null
+- id: TIDC
+  name: Turlock Irrigation District
+  description: null
+- id: CENT
+  name: Central
+  description: null
+- id: ERCO
+  name: Electric Reliability Council of Texas, Inc.
+  description: null
+- id: FPL
+  name: Florida Power & Light Co.
+  description: null
+- id: MISO
+  name: Midcontinent Independent System Operator, Inc.
+  description: null
+- id: PGE
+  name: Portland General Electric Company
+  description: null
+- id: BANC
+  name: Balancing Authority of Northern California
+  description: null
+- id: PACW
+  name: PacifiCorp West
+  description: null
+- id: PJM
+  name: PJM Interconnection, LLC
+  description: null
+- id: TEC
+  name: Tampa Electric Company
+  description: null
+- id: HST
+  name: City of Homestead
+  description: null
+- id: CHPD
+  name: Public Utility District No. 1 of Chelan County
+  description: null
+- id: TPWR
+  name: City of Tacoma, Department of Public Utilities, Light Division
+  description: null
+- id: NE
+  name: New England
+  description: null
+- id: WALC
+  name: Western Area Power Administration - Desert Southwest Region
+  description: null
+- id: EPE
+  name: El Paso Electric Company
+  description: null
+- id: YAD
+  name: Alcoa Power Generating, Inc. - Yadkin Division
+  description: null
+- id: SEC
+  name: Seminole Electric Cooperative
+  description: null
+- id: DEAA
+  name: Arlington Valley, LLC
+  description: null
+- id: WWA
+  name: NaturEner Wind Watch, LLC
+  description: null
+- id: SWPP
+  name: Southwest Power Pool
+  description: null
+- id: NW
+  name: Northwest
+  description: null
+- id: AVRN
+  name: Avangrid Renewables, LLC
+  description: null
+- id: CPLE
+  name: Duke Energy Progress East
+  description: null
+- id: ISNE
+  name: ISO New England
+  description: null
+- id: FLA
+  name: Florida
+  description: null
+- id: MIDW
+  name: Midwest
+  description: null
+- id: WACM
+  name: Western Area Power Administration - Rocky Mountain Region
+  description: null
+- id: FPC
+  name: Duke Energy Florida, Inc.
+  description: null
+- id: AECI
+  name: Associated Electric Cooperative, Inc.
+  description: null
+- id: GRID
+  name: Gridforce Energy Management, LLC
+  description: null
+- id: SEPA
+  name: Southeastern Power Administration
+  description: null
+- id: SE
+  name: Southeast
+  description: null
+- id: TEN
+  name: Tennessee
+  description: null
+- id: AZPS
+  name: Arizona Public Service Company
+  description: null
+- id: TEX
+  name: Texas
+  description: null
+- id: CPLW
+  name: Duke Energy Progress West
+  description: null
+- id: AVA
+  name: Avista Corporation
+  description: null
+- id: IPCO
+  name: Idaho Power Company
+  description: null
+- id: TAL
+  name: City of Tallahassee
+  description: null
+- id: SPA
+  name: Southwestern Power Administration
+  description: null
+- id: AEC
+  name: PowerSouth Energy Cooperative
+  description: null
+- id: HGMA
+  name: New Harquahala Generating Company, LLC
+  description: null
+- id: GRIF
+  name: Griffith Energy, LLC
+  description: null
+- id: SCL
+  name: Seattle City Light
+  description: null
+- id: EEI
+  name: Electric Energy, Inc.
+  description: null
+- id: GLHB
+  name: GridLiance
+  description: null
+- id: DOPD
+  name: PUD No. 1 of Douglas County
+  description: null
+- id: LGEE
+  name: LG&E and KU Services Company as agent for Louisville Gas and Electric Company
+    and Kentucky Utilities Company
+  description: null
+- id: BPAT
+  name: Bonneville Power Administration
+  description: null
+- id: SOCO
+  name: Southern Company Services, Inc. - Trans
+  description: null
+- id: SRP
+  name: Salt River Project Agricultural Improvement and Power District
+  description: null
+- id: GWA
+  name: NaturEner Power Watch, LLC
+  description: null
+- id: NSB
+  name: Utilities Commission of New Smyrna Beach
+  description: null
+fueltype:
+- id: PS
+  name: Pumped storage
+  description: null
+- id: UES
+  name: Unknown energy storage
+  description: null
+- id: NG
+  name: Natural Gas
+  description: null
+- id: WND
+  name: Wind
+  description: null
+- id: OTH
+  name: Other
+  description: null
+- id: NUC
+  name: Nuclear
+  description: null
+- id: WNB
+  name: Wind with integrated battery storage
+  description: null
+- id: BAT
+  name: Battery
+  description: null
+- id: UES
+  name: Unknown Energy
+  description: null
+- id: SUN
+  name: Solar
+  description: null
+- id: OIL
+  name: Petroleum
+  description: null
+- id: GEO
+  name: Geothermal
+  description: null
+- id: SNB
+  name: Solar with integrated battery storage
+  description: null
+- id: WAT
+  name: Hydro
+  description: null
+- id: BAT
+  name: Battery storage
+  description: null
+- id: OES
+  name: Other energy storage
+  description: null
+- id: COL
+  name: Coal
+  description: null
+- id: UNK
+  name: Unknown
+  description: null
+- id: SNB
+  name: Solar Battery
+  description: null
+- id: PS
+  name: Pumped Storage
+  description: null

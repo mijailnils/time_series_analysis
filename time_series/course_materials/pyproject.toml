@@ -1,0 +1,119 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "practical-python-time-series"
+version = "0.1.0"
+description = "Practical Python for Time Series Analysis - LinkedIn Learning Course"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0.0",
+    "pyarrow>=12.0.0",
+    "fastparquet>=0.8.0",
+    "plotly>=5.0.0",
+    "nbformat>=5.0.0",
+    "nbconvert>=7.0.0",
+    "seaborn>=0.12.0",
+    "scikit-learn>=1.3.0",
+    "statsmodels>=0.14.0",
+    "matplotlib>=3.7.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "prophet>=1.1.0",
+    "ipywidgets>=8.1.7",
+    "pynvim>=0.5.2",
+    "ipykernel>=6.0.0",
+    "jupyter-client>=8.6.3",
+    "anywidget>=0.9.18",
+    "fredapi>=0.5.2",
+    "kaleido>=1.1.0",
+    "tabulate>=0.9.0",
+    "yfinance>=0.2.66",
+    "python-eia>=0.1.0",
+    "pyyaml>=6.0.2",
+    "playwright>=1.40.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0",
+    "jupyter>=1.0.0",
+    "notebook>=7.0.0",
+]
+
+[tool.setuptools]
+packages = ["modules"]
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "data",
+]
+
+# Same as Black.
+line-length = 88
+
+# Assume Python 3.10
+target-version = "py310"
+
+[tool.ruff.lint]
+# Enable pycodestyle (`E`) and Pyflakes (`F`) codes by default.
+select = ["E", "F", "I", "N", "W", "UP", "B", "A", "C4", "SIM", "RUF"]
+ignore = [
+    "E501",  # line too long - let formatter handle this
+    "B008",  # do not perform function calls in argument defaults
+    "E402",  # module level import not at top of file - common in utils
+    "N806",  # variable in function should be lowercase - for stats conventions
+]
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.lint.per-file-ignores]
+# Ignore imports in notebooks
+"*.ipynb" = ["I", "E402", "F401", "F811"]
+# Allow print statements in notebooks
+"notebooks/*.ipynb" = ["T201"]
+
+[tool.ruff.lint.mccabe]
+# Unlike Flake8, default to a complexity level of 10.
+max-complexity = 10
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
